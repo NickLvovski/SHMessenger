@@ -12,7 +12,7 @@ namespace SHMessenger
             Console.WriteLine(output);
             Message deserializedMsg = JsonConvert.DeserializeObject<Message>(output);
             Console.WriteLine(deserializedMsg);
-            //{ "UserName":"Shnucker","MessageText":"Hi","TimeStamp":"2022-01-22T15:36:30.2664146Z"}
+            //{"UserName":"Shnucker","MessageText":"Hi","TimeStamp":"2022-01-22T15:36:30.2664146Z"}
             //Shnucker < 22.01.2022 15:36:30 >: Hi
         }
     }
