@@ -2,11 +2,12 @@
 
 namespace SHMessenger
 {
-    class Program
+    partial class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var msg = new Message();
+            Console.WriteLine(msg.ToString());
         }
     }
 }
