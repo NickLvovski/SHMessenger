@@ -2,7 +2,8 @@
 
 namespace SHMessenger
 {
-        [Serializable]
+    partial class Program
+    {
         public class Message
         {
             public string UserName { get; set; }
@@ -26,5 +27,7 @@ namespace SHMessenger
                 string output = String.Format("{0} <{2}>: {1}", UserName, MessageText, TimeStamp);
                 return output;
             }
+
+        }
     }
 }
